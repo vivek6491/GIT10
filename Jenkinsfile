@@ -10,7 +10,7 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Build1') {
             steps {
                 echo "Building the project..."
                 // Your actual build commands
